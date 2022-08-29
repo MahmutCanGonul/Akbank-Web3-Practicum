@@ -29,7 +29,6 @@ public class OGSManagement {
 	
 	public static int getTotalProfit(
 	ArrayList<Car> _passedCars,
-	String searchingDate,
 	SimpleDateFormat formatter) throws ParseException {
 		var total=0;
 		for(int i=0; i<_passedCars.size();i++) {
@@ -87,7 +86,6 @@ public class OGSManagement {
 		 
 		System.out.println(getTotalProfit(
 				passedCars,
-				"29/08/2022",
 				 formatter
 				));
 		
